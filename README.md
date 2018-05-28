@@ -89,6 +89,7 @@ https://docs.unrealengine.com/ja-JP/Engine/Rendering/PostProcessEffects/PostProc
 既知の問題
 -----------------
 ・Macで利用時、『PP_Diffusion』内部のカスタムノードでクラッシュする。→ 現状では意図的に削除するなどして対処してください。
+
 ・サブサーフェスカラーを利用時、色が出力されない。→ ベースカラーの色を利用するため、このシェーダー利用の際にはベースカラーに色を出力してください。
 
 
