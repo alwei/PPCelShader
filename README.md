@@ -2,6 +2,10 @@ Unreal Engine 4 ポストプロセス セルシェーダー
 =======================================================
 対応Ver UE 4.19.2
 
+English README
+
+https://github.com/alwei/PPCelShader/blob/master/README_EN.md
+
 
 解説
 ------
