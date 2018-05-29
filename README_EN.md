@@ -36,7 +36,7 @@ Basic usage
 ------------------
 Apply "PPI_CelShader" as a Post Process Material.
 
-https://docs.unrealengine.com/ja-JP/Engine/Rendering/PostProcessEffects/PostProcessMaterials
+https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/PostProcessMaterials
 
 "PPI_CelShader" exposes various parameters. So please adjust as you want.
 All parameters have pop-up help.
