@@ -26,6 +26,7 @@ Compared with existing post process based cell shaders, here are notable feature
 
 8.Diffusion filter shader as an option.
 
+9.Apply ambient light of Skylight an option.
 
 As above, this shader has enough features as a cell shader.
 
@@ -54,8 +55,6 @@ By using texture maps with specular value for highlight, you can show the highli
 You can adjust where to show shadow by "emissive color" of the material.
 
 If emissive color is more or equal to 1, this shader will not render shadow on there. Please adjust where to render shadow with texture map.
-
-If "metalic" value is high, the shadow becomes darker. Please reduce metalic value in this case.
 
 
 Outline
@@ -90,7 +89,7 @@ Known issues
 -----------------
 ・When you use this shader on Mac, it crashes at custom nodes in "PP_Diffusion". Please remove the nodes for now.
 
-・When you use subsurface color, the color isn't reflected. This shader uses base color. So please output your color to base color.
+・When you use subsurface color, the color isn't reflected. Shading model is not applied in Subsurface Profile.Subsurface, Preintegreted Skin will be applied.
 
 
 License
